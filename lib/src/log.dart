@@ -217,7 +217,7 @@ void warning(message) => write(Level.WARNING, message);
 void message(message) => write(Level.MESSAGE, message);
 
 /// Logs [message] at [Level.IO].
-void io(message) => write(Level.IO, message);
+void io(message) {}
 
 /// Logs [message] at [Level.SOLVER].
 void solver(message) => write(Level.SOLVER, message);
